@@ -1,0 +1,46 @@
+# Python bytecode files
+# Игнорируем кэшированные файлы Python
+__pycache__/
+*.py[cod]
+
+# Pytest cache
+.pytest_cache/
+
+# Virtual environment
+# Игнорируем файлы виртуального окружения
+.venv/
+
+# Database files
+# Игнорируем базы данных SQLite и другие
+*.sqlite3
+*.db
+
+# Logs
+# Лог-файлы не должны попадать в репозиторий
+*.log
+
+# Environment variables
+# Игнорируем файлы конфигурации с переменными окружения
+.env
+.env.*
+.flaskenv
+
+# Django migration files
+# Игнорируем миграции, кроме __init__.py
+*/migrations/*
+!*/migrations/__init__.py
+
+# IDE config files
+# Игнорируем конфигурации IDE (например, PyCharm или VSCode)
+.idea/
+.vscode/
+
+# Temporary and backup files
+# Игнорируем временные файлы и резервные копии
+*.bak
+*.swp
+
+# System files
+# Системные файлы macOS и Windows
+.DS_Store
+Thumbs.db
